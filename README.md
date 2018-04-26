@@ -1,6 +1,6 @@
 # WCFwithSingleton
 WCF with Singleton and without
-.NET framework 4.5.2
+.NET framework 4.6.1
 ### Install
 1) Compile
 2) Open "Developer Command Promt for VS"
