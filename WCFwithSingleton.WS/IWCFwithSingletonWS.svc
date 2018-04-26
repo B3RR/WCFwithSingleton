@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WCFwithSingleton.WS.WCFwithSingletonWS" CodeBehind="IWCFwithSingletonWS.svc.cs" %>

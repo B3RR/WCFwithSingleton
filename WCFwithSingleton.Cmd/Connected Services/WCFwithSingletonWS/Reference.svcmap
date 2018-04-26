@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="214ab867-c02a-4953-a847-c85fe8b574b5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:53745/IWCFwithSingletonWS.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="IWCFwithSingletonWS.disco" MetadataType="Disco" ID="c95ef7de-cb83-41e9-bd63-0cf8260452d9" SourceId="1" SourceUrl="http://localhost:53745/IWCFwithSingletonWS.svc?disco" />
+    <MetadataFile FileName="IWCFwithSingletonWS.wsdl" MetadataType="Wsdl" ID="8e743c88-750f-4161-aab8-1705132a0014" SourceId="1" SourceUrl="http://localhost:53745/IWCFwithSingletonWS.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="IWCFwithSingletonWS.xsd" MetadataType="Schema" ID="5eda47ef-0d6d-4360-9164-c55687012a02" SourceId="1" SourceUrl="http://localhost:53745/IWCFwithSingletonWS.svc?xsd=xsd0" />
+    <MetadataFile FileName="IWCFwithSingletonWS1.xsd" MetadataType="Schema" ID="b9f61287-1fcc-4031-8a89-5d365877361c" SourceId="1" SourceUrl="http://localhost:53745/IWCFwithSingletonWS.svc?xsd=xsd1" />
+    <MetadataFile FileName="WCFwithSingletonWS.wsdl" MetadataType="Wsdl" ID="8df7ce8b-db16-417f-a9e9-705db53f7ecc" SourceId="1" SourceUrl="http://localhost:53745/IWCFwithSingletonWS.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
