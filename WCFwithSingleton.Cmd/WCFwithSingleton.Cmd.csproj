@@ -55,13 +55,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Connected Services\WCFwithSingletonWS\IWCFwithSingletonWS.wsdl" />
-    <None Include="Connected Services\WCFwithSingletonWS\IWCFwithSingletonWS.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\WCFwithSingletonWS\IWCFwithSingletonWS1.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="Connected Services\WCFwithSingletonWS\WCFwithSingleton.Cmd.WCFwithSingletonWS.TestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -86,9 +79,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\WCFwithSingletonWS\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\WCFwithSingletonWS\IWCFwithSingletonWS.disco" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\WCFwithSingletonWS\configuration91.svcinfo" />

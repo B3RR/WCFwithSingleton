@@ -60,7 +60,7 @@ namespace WCFwithSingleton.Cmd
 
                 var xmlRequestString = Helper.Helpers.XMLHelper.ConvertObjectToXmlString(msg);
 
-                var temp = await client.GetTestAsync(msg);
+                var temp = await client.GetTestWithSingletonAsync(msg);
                 Thread.Sleep(3000);
                 Console.WriteLine($"Async - {temp.ResponseInfo.ResponseType} {temp.MessageText}");
                 Console.WriteLine(xmlRequestString);
